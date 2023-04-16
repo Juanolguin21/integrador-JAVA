@@ -49,6 +49,7 @@ body {
 }
 .logo img {
     border-radius: 1rem;
+    width: 230%;
     border: 2px solid var(--gren);
     box-shadow: 9px 5px 26px 5px var(--black);
 }
