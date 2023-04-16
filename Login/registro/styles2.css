@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+/* Variables de colores */
+
+:root {
+    --yellow: #a49d80;
+    --blue: #e7a670;
+    --white: #ffffff;
+    --black:#0a0a0ae7;
+    --grey:#d1cbcbdb;
+    --gren:rgb(15, 219, 206);
+    --bold: 900;
+    --medium: 700;
+    --regular: 400;
+    --small: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    background-image: url(section4.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__inputs {
+    width: 70%;
+    max-width: 600px; 
+    padding-left: 0; 
+}
+
+.login__inputs p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login__inputs p label {
+    color: var(--black);
+    padding-bottom: 10px;
+    font-weight: 900;
+
+}
+
+
+.login__inputs p input {
+    height: 40px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: var(--black);
+}
+
+.login__inputs p input::placeholder {
+    color: var(--black);
+}
+
+.login__inputs p button {
+    width: 100%;
+    height: 45px;
+    background:  var(--gren);
+    color: var(--black);
+    border-radius: 25px;
+    border: 1px solid var(--black);
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    box-shadow: 1px 1px 2px 2px var(--black);
+}
+
+.login__inputs p button:hover {
+    box-shadow: 0px 0px 26px -5px var(--gren);
+    transition: all 0.3s linear;
+}
+a {
+    text-decoration: none;
+    color: var(--gren);
+    padding-top: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .container {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        padding: 0;
+        
+    }
+    .login__inputs {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login__inputs p {
+        color: var(--black);
+        width: 70%;
+        margin: 10px 0;
+        
+    }
+    .login__inputs p label {
+        color: var(--black);
+        font-weight: 900;
+        
+    }
+    .content {
+        width: 50%;
+        background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(68, 77, 245),rgba(54,230,250) );
+        height: 60%;
+        flex-direction: row;
+        border-radius: 20px;
+        box-shadow: 0px 0px 26px -5px var(--black);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .login__inputs p:last-child button {
+        width: 100%
+    }
+}

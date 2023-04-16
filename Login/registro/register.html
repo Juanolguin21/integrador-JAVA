@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"/>
+    <title>Registrarse en DEPORT STYLE</title>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles2.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+<body> 
+    <div class="container">
+        <div class="content">
+            <div class="login__inputs">
+                <p> 
+                    <label> Nombre de Usuario* </label>
+                    <input type="text" id="user" placeholder="Ingrese su usuario">
+                </p><p>
+                    <label> Nueva Contraseña* </label>
+                    <input type="password"id="password"  placeholder="Ingrese su contraseña 8 digitos 1 numerico minimo, 1 mayuscula y un simbolo">
+                </p><p>
+                    <label> Repetir Contraseña* </label>
+                    <input type="password" id="password2" placeholder="Reingrese su nueva contraseña">
+                </p><p>
+                    <label> Pais* </label>
+                    <input type="text" id="pais" placeholder="Ingrese su Pais de Nacimiento">
+                </p><p>
+                    <label> Ciudad* </label>
+                    <input type="text" id="ciudad" placeholder="Ingrese su ciudad de domicilio">
+                </p><p>
+                    <label> Direccion calle* </label>
+                    <input type="text" id="direccion" placeholder="Ingrese su direccion">
+                </p><p>
+                    <label> Numero de domicilio* </label>
+                    <input type="text" id="domicilio" placeholder="Ingrese su numero de direccion">
+                </p><p>
+                    <label> Telefono* </label>
+                    <input type="text" id="telefono" placeholder="Ingrese su telefono">
+                </p><p>
+                    <label> E-mail* </label>
+                    <input type="text" id="email" placeholder="Ingrese su E-mail">
+                </p>
+                <p>
+                    <a id="submit"  onclick= guardarCliente()><button> Crear Usuario </button></a>
+                    <a href="/Login/login.html"><button> Volver al LOGUIN </button></a>
+                </p>
+            
+            </div>
+        </div>
+    </div>
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- SweetAlert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--JS-->
+    <script src="/js/registro.js"></script>
+</body>
+</html>
