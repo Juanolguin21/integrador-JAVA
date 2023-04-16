@@ -22,13 +22,7 @@ h4 {
     color:red;
 
 }
-a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    padding: 10px;
-}
+
 
 body {
     margin: 0;
