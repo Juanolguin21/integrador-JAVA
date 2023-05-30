@@ -1,0 +1,440 @@
+body {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+
+}
+ 
+header .buscar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.buscar {
+    display:flex;
+}
+
+.menu h2{ 
+    display: none;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.dropdown {
+    margin-right: 0;
+    display: none;
+    cursor: pointer;
+    padding-right: 0rem;
+}
+
+.dropdown i {
+    font-size: 2rem;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 1px;
+    left: -8rem;
+    width: 700px;
+    padding: 1rem;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-color:1rem solid black;
+  }
+  .dropdown-menu a {
+    display: block;
+    margin: 15px 0;
+    color: black;
+    align-items: center;
+
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top:0% ;
+    box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
+    padding-right: 1rem;
+
+}
+header a {
+    cursor: pointer;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s linear;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+header a:hover {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    transition: all 0.1s linear;
+    color: black;
+    
+}
+
+.contacto {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 10rem;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 7px 3px 7px #000;
+    display: flex;
+}
+main h1 {
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    width: 50%
+}
+
+h4 {
+    color: rgb(251, 251, 255);
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carrito p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: none;
+
+}
+
+img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+#submit{
+        background-color: rgb(210, 237, 237);
+        font-size: 2rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 5px;       
+}
+
+p {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2px;
+
+}
+.card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.card-text {
+    background-color: rgba(161, 227, 151, 0);
+    border-radius: 5px;
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+}
+.card-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+img {
+        transition: all 0.3s linear;
+        border-radius: 5px;
+}
+img:hover {
+        transition: all 0.1s linear;
+        transform: scale(1.01);
+        cursor: pointer;
+}
+
+
+u {
+    
+    padding: 2px;
+    border-width: 2rem;
+    color: black;
+    box-shadow: none;
+    
+}
+.subtotal {
+    font-style: oblique;
+    color: red;
+}
+
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    
+}
+
+input {
+    padding: 5px;
+}
+
+.row #wrap {
+    flex-direction: column;
+    width: 30%;
+   
+}
+
+form {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-general {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "tarjetas carrito";
+    
+}
+
+.row {
+
+    grid-area: tarjetas;
+    display:flex;
+    align-items:flex-end;
+    align-content: flex-start;
+    padding: 6rem;
+    border-bottom: 1rem solid white;
+
+}
+
+.carrito {
+    margin-right: 0;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 6rem;
+    right: -1rem;
+    width: 700px;
+    height:85%;
+    grid-area: carrito;
+    overflow: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(68, 77, 245),rgba(54,230,250) );
+    text-shadow: 7px 3px 7px #000;
+    color: white;
+    box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
+    padding-top: 0.7rem;
+    justify-content:first baseline;
+    border-bottom: 0.2rem solid white;   
+}
+
+
+
+.carrito a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-style: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.carrito a:hover {
+    color: black;
+}
+
+.carrito h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+footer {
+    background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
+    box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
+    border-width: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 7px 3px 7px #000;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 2rem;
+
+}
+@media (max-width: 1300px) {
+
+    .dropdown {
+        display: flex;
+        padding-left: 2rem;
+
+    }
+
+    .menu-label img {
+        width: 20%;
+    }
+    .menu h2 {
+        display: none;
+    }
+    .menu a {
+        display: none;
+    }
+    .contacto {
+        justify-content: space-between;
+    }
+
+   .carrito {
+    padding-top: 1rem;
+    margin-left: 0;
+    padding-bottom: 2rem;
+    
+    }
+
+    .subtotal {
+        font-size: 1.2rem;
+    }
+
+    .row #wrap {
+        gap:1rem;
+    }
+    header {
+    align-items: center;
+    width: 100%;
+    }
+   
+    .div-general {
+    grid-template-columns: 50% 50%;
+    }
+    .carrito h1 {
+        font-size: 1.8rem;
+        padding-bottom: 0.5rem;
+    }
+    .carrito img {
+        display: none;
+    }
+    .div-general {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .dropdown {
+        padding-left: 2rem;
+
+    }
+
+.buscar {
+    font-size: 0.7rem;
+    padding: 0;
+}
+p {
+    font-size: 2rem;
+}
+
+.row #wrap {
+    gap:1rem;
+}
+.row {
+    padding: 4rem;
+}
+header h1 {
+    font-size: 1.4rem;
+}
+.carrito a {
+    font-size: 3rem;
+}
+.card-text {
+    font-size: 1.8rem;
+}
+.card-title {
+    font-size: 1.5rem;
+}
+
+footer p{
+    font-size: 1.5rem;
+}
+footer {
+    padding: 1rem;
+}
+}
+
+@media (max-width:550px) {
+
+    .dropdown {
+        padding-left: 0;
+
+    }
+    .row {
+        gap: 1rem;
+    }
+
+    .buscar {
+        font-size: 0.5rem;
+        padding: 0;
+    }
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+}
