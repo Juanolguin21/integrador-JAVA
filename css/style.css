@@ -10,6 +10,27 @@ header .buscar {
     justify-content: space-between;
     
 }
+.count-products {
+	position: absolute;
+	top: 50%;
+	right: 18px;
+
+	background-color: #f40303;
+	color: #040404;
+	width: 25px;
+	height: 25px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 1px solid rgb(8, 8, 8);
+	z-index: 1;
+}
+.count-products span {
+    color:white;
+    font-size: 15px;
+}
 .buscar {
     display:flex;
 }
@@ -31,7 +52,12 @@ header .buscar {
     cursor: pointer;
     padding-right: 0rem;
 }
+.dropdown a .carro {
+    font-size: 2rem;
+    display: flex;
+    cursor:pointer;
 
+}
 .dropdown i {
     font-size: 2rem;
 }

@@ -106,6 +106,7 @@ const imprimirProductos = async() => {
   const datos  = await fetch('js/inventario.json');
   const inventario = await datos.json();
 
+  const counter = document.querySelector('count-products span');
 
   inventario.forEach ((elem) => {
     const divProductos = document.createElement('div');
@@ -122,7 +123,7 @@ const imprimirProductos = async() => {
 
     const boton = document.getElementById(`agregar${elem.id}`);
     boton.addEventListener("click", () => {
-      buscarProducto(elem.id);
+      buscarProducto(elem.id) & alert(`PRODUCTO AGREGADO CON EXITO   🏄‍♂️ `);
     });
   });
 };
