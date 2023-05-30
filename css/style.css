@@ -92,13 +92,6 @@ header a:hover {
     
 }
 
-.contacto {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-top: 10rem;
-    }
 
 html {
     scroll-behavior: smooth;
@@ -335,6 +328,28 @@ form {
     font-size: 2.4rem;
     cursor: pointer;
 }
+.contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.contacto a {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+}
+.contacto a:hover {
+    color: black;
+    cursor: pointer;
+}
+
 footer {
     background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
     box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
@@ -343,7 +358,8 @@ footer {
     color: white;
     text-shadow: 7px 3px 7px #000;
     display: flex;
-    align-items: end;
+    flex-direction:row ;
+    align-items: center;
     justify-content: center;
     padding: 2rem;
 
@@ -354,6 +370,16 @@ footer {
         display: flex;
         padding-left: 2rem;
 
+    }
+    .card-text {
+        font-size: 1.5rem;
+    }
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .btn-primary {
+        font-size: 1.3rem;
     }
 
     .menu-label img {
@@ -369,12 +395,6 @@ footer {
         justify-content: space-between;
     }
 
-   .carrito {
-    padding-top: 1rem;
-    margin-left: 0;
-    padding-bottom: 2rem;
-    
-    }
 
     .subtotal {
         font-size: 1.2rem;
@@ -388,9 +408,6 @@ footer {
     width: 100%;
     }
    
-    .div-general {
-    grid-template-columns: 50% 50%;
-    }
     .carrito h1 {
         font-size: 1.8rem;
         padding-bottom: 0.5rem;
@@ -403,6 +420,10 @@ footer {
         flex-direction: column;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width:800px) {
@@ -412,6 +433,9 @@ footer {
 
     }
 
+    .btn-primary {
+        font-size: 1rem;
+    }
 .buscar {
     font-size: 0.7rem;
     padding: 0;
@@ -420,9 +444,6 @@ p {
     font-size: 2rem;
 }
 
-.row #wrap {
-    gap:1rem;
-}
 .row {
     padding: 4rem;
 }
@@ -433,10 +454,10 @@ header h1 {
     font-size: 3rem;
 }
 .card-text {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 .card-title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 footer p{
@@ -453,8 +474,8 @@ footer {
         padding-left: 0;
 
     }
-    .row {
-        gap: 1rem;
+    .btn-primary {
+        font-size: 1rem;
     }
 
     .buscar {
