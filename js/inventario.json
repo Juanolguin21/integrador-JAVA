@@ -3,84 +3,84 @@
       "id": 0, 
       "nombre": "Billabong 4/3 Fusion", 
       "precio": 150000, 
-      "imagen": "./img/billabong.jpg", 
+      "imagen": "./img/Project1.jpg", 
       "cantidad":1
     },
     {
       "id": 1, 
       "nombre": "Quicksilver 4/3 Foild Premium",
       "precio": 141000, 
-      "imagen": "./img/quick.jpg", 
+      "imagen": "./img/Project2.jpg", 
       "cantidad":1
     },
     {
       "id": 2, 
       "nombre": "Rip Curl Pro 4/3 E6", 
       "precio": 250000, 
-      "imagen": "./img/ripcurl.jpg", 
+      "imagen": "./img/Project3.jpg", 
       "cantidad":1
     },
     {
       "id": 3, 
       "nombre": "XCEL 3/2 Thermo", 
       "precio": 135000, 
-      "imagen": "./img/xcel.jpg", 
+      "imagen": "./img/Project4.jpg", 
       "cantidad":1
     },
     {
       "id": 4, 
       "nombre": "Chaqueta Billabong 2mm", 
       "precio": 32000, 
-      "imagen": "./img/chaqueta.jpg", 
+      "imagen": "./img/Project5.jpg", 
       "cantidad":1
     },
     {
       "id": 5, 
       "nombre": "Capucha Rip curl 2mm", 
       "precio": 17000, 
-      "imagen": "./img/capucha.jpg", 
+      "imagen": "./img/Project6.jpg", 
       "cantidad":1
     },
     {
       "id": 6, 
       "nombre": "Billabong 3/2 revolution", 
       "precio": 120000, 
-      "imagen": "./img/billabong3.jpg", 
+      "imagen": "./img/Project7.jpg", 
       "cantidad":1
     },
     {
       "id": 7, 
       "nombre": "Billabong 5/4/3 absolu con capucha",
       "precio": 191000, 
-      "imagen": "./img/billabong2.jpg", 
+      "imagen": "./img/Project8.jpg", 
       "cantidad":1
     },
     {
       "id": 8, 
       "nombre": "Rip Curl Pro 4/3 E6 mujer", 
       "precio": 220000, 
-      "imagen": "./img/rip3mujer.jpg", 
+      "imagen": "./img/Project9.jpg", 
       "cantidad":1
     },
     {
       "id": 9, 
       "nombre": "Hurley 4/3 Adventage 2", 
       "precio": 175000, 
-      "imagen": "./img/hurley.jpg", 
+      "imagen": "./img/Project10.jpg", 
       "cantidad":1
     },
     {
       "id": 10, 
       "nombre": "Rip curl down patrol 3/2 E5", 
       "precio": 155000, 
-      "imagen": "./img/rip2.jpg", 
+      "imagen": "./img/Project11.jpg", 
       "cantidad":1
     },
     {
       "id": 11, 
       "nombre": "Quicksilver 4/3 ignite gold", 
       "precio": 195000, 
-      "imagen": "./img/quick2.jpg", 
+      "imagen": "./img/Project12.jpg", 
       "cantidad":1
     }
     
