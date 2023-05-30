@@ -47,17 +47,14 @@ header .buscar {
 }
 
 .dropdown {
-    margin-right: 0;
     display: none;
     cursor: pointer;
-    padding-right: 0rem;
 }
-.dropdown a .carro {
-    font-size: 2rem;
+#carro {
+    font-size: 1.3rem;
     display: flex;
-    cursor:pointer;
-
 }
+
 .dropdown i {
     font-size: 2rem;
 }
@@ -103,7 +100,7 @@ header a {
     font-size: larger;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     transition: all 0.1s linear;
     padding: 5px;
     text-decoration: none;
@@ -394,7 +391,6 @@ footer {
 
     .dropdown {
         display: flex;
-        padding-left: 2rem;
 
     }
     .card-text {
@@ -444,6 +440,7 @@ footer {
     .div-general {
         display: flex;
         flex-direction: column;
+        padding-top: 3rem;
     }
 
     footer {
@@ -485,12 +482,18 @@ header h1 {
 .card-title {
     font-size: 1.1rem;
 }
+#carro {
+    font-size: 1rem;
+    display: flex;
+    cursor:pointer;
+}
+
 
 footer p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 footer {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 }
 
@@ -509,7 +512,7 @@ footer {
         padding: 0;
     }
     header h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
 }
