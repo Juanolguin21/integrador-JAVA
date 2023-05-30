@@ -64,7 +64,7 @@ header {
     background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
     position: fixed;
     z-index: 1;
-    width: 75.4%;
+    width: 100%;
     top:0% ;
     box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
     padding-right: 1rem;
@@ -97,8 +97,9 @@ header a:hover {
         align-items: center;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-top: 0;
+        padding-top: 10rem;
     }
+
 html {
     scroll-behavior: smooth;
 }
@@ -158,7 +159,7 @@ img {
         background-color: rgb(210, 237, 237);
         font-size: 2rem;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        border-radius: 5px;
+        border-radius: 5px;       
 }
 
 p {
@@ -232,18 +233,20 @@ input {
 form {
     padding: 5px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 
 .div-general {
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: "tarjetas carrito";
+    
 }
 
 .row {
+
     grid-area: tarjetas;
     display:flex;
     align-items:flex-end;
@@ -254,11 +257,19 @@ form {
 }
 
 .carrito {
-    background-color: rgba(19, 128, 182, 0);
+    margin-right: 0;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 6rem;
+    right: -1rem;
+    width: 700px;
+    height:85%;
     grid-area: carrito;
-    margin-left: 0.8rem;
-    display: flex;
+    overflow: auto;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
     background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(68, 77, 245),rgba(54,230,250) );
     text-shadow: 7px 3px 7px #000;
@@ -266,9 +277,11 @@ form {
     box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
     padding-top: 0.7rem;
     justify-content:first baseline;
-    border-bottom: 0.2rem solid white;
-    
+    border-bottom: 0.2rem solid white;   
 }
+
+
+
 .carrito a {
     display: flex;
     flex-direction: column;
@@ -334,9 +347,7 @@ footer {
     padding-bottom: 2rem;
     
     }
-    #carrito {
-        width: 50%;
-    }
+
     .subtotal {
         font-size: 1.2rem;
     }

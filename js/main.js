@@ -87,6 +87,18 @@ const dropdownMenu = document.querySelector('.dropdown-menu');
       dropdownMenu.style.display = 'none';
     });
 
+// menu carrito
+
+const carroMenu = document.querySelector('.carrito');
+    const carroToggle = document.querySelector('.menu #carro');
+
+    // Añadir eventos para mostrar y ocultar el menú desplegable
+    carroToggle.addEventListener('click', () => {
+      carroMenu.style.display = carroMenu.style.display === 'block' ? 'none' : 'block';
+    });
+    carroMenu.addEventListener('', () => {
+      carroMenu.style.display = 'none';
+    });
 
 //TARJETA DE PRODUCTOS EN EL HTML
 
@@ -266,11 +278,10 @@ function confirmarCompra () {
         <label for="mail">Correo Electrónico:</label>        
         <input type="text" placeholder="mail" id="mail">
             <br>
-        
-  </form>
-  <button id="submit">Enviar</button> <br>
-  <p><b> TOTAL: $ ${total}  💵 💳<b/></p>
-  `;
+            <button id="submit">Enviar</button> <br>
+            <p><b> TOTAL: $ ${total}  💵 💳<b/></p>
+            </form>
+            `;
   divTotalCarrito.appendChild (div)
 
   let submit = document.getElementById('submit')
