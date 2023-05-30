@@ -106,8 +106,6 @@ const imprimirProductos = async() => {
   const datos  = await fetch('js/inventario.json');
   const inventario = await datos.json();
 
-  const counter = document.querySelector('count-products span');
-
   inventario.forEach ((elem) => {
     const divProductos = document.createElement('div');
     divProductos.classList.add("card", "col-sm-6", "col-lg-4", "text-bg-white", "border-light");
@@ -124,6 +122,10 @@ const imprimirProductos = async() => {
     const boton = document.getElementById(`agregar${elem.id}`);
     boton.addEventListener("click", () => {
       buscarProducto(elem.id) & alert(`PRODUCTO AGREGADO CON EXITO   🏄‍♂️ `);
+      var counter = document.querySelector('.count-products span');
+      var span= counter.innerHTML;
+      var contenidoIncrementado=parseInt(span)+1;
+      counter.innerHTML=contenidoIncrementado;
     });
   });
 };
