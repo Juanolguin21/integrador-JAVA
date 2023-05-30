@@ -115,7 +115,7 @@ const imprimirProductos = async() => {
       <div class="card-body">
         <h5 class="card-title">${elem.nombre}</h5>
         <p class="card-text">$${elem.precio}.-</p>
-        <a href="#carrito" class="btn btn-primary" id="agregar${elem.id}">Agregar al carrito</a>
+        <a href="#carrito" class="btn-primary" id="agregar${elem.id}">Agregar al carrito</a>
       </div>`
     divMain.appendChild(divProductos);
 

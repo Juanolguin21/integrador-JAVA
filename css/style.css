@@ -170,8 +170,10 @@ p {
 }
 .card {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 
 }
 .card-text {
@@ -179,14 +181,40 @@ p {
     border-radius: 5px;
     font-size: 2rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+
 }
 .card-title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+    border: 2px solid black;
+
+}
+
+.btn-primary:hover {
+    transition: all 0.2s ease;
+    color: red;
+    box-shadow: 7px 3px 7px #000;
 
 }
 
