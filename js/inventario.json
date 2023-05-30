@@ -82,6 +82,27 @@
       "precio": 195000, 
       "imagen": "./img/Project12.jpg", 
       "cantidad":1
+    },
+    {
+      "id": 12, 
+      "nombre": "Quicksilver 4/3 ignite gold", 
+      "precio": 195000, 
+      "imagen": "./img/Project13.jpg", 
+      "cantidad":1
+    },
+    {
+      "id": 13, 
+      "nombre": "Quicksilver 4/3 ignite gold", 
+      "precio": 195000, 
+      "imagen": "./img/Project14.jpg", 
+      "cantidad":1
+    },
+    {
+      "id": 14, 
+      "nombre": "Quicksilver 4/3 ignite gold", 
+      "precio": 195000, 
+      "imagen": "./img/Project15.jpg", 
+      "cantidad":1
     }
     
 ]
