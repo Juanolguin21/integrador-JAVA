@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
+
 body {
     font-size: 62.5%;
     padding: 0;
@@ -96,7 +99,7 @@ header {
 header a {
     cursor: pointer;
     display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     font-size: larger;
     flex-direction: row;
     align-items: center;
@@ -122,16 +125,16 @@ html {
 
 header h1 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem;
     display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     text-shadow: 7px 3px 7px #000;
     display: flex;
 }
 main h1 {
     font-size: 3rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     padding: 1rem;
     border-bottom: 1px solid white;
 }
@@ -140,7 +143,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
 }
 h3 {
     width: 50%
@@ -157,7 +160,7 @@ button {
     align-items: center;
 }
 .carrito p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     text-shadow: none;
 
 }
@@ -174,7 +177,7 @@ img {
 #submit{
         background-color: rgb(210, 237, 237);
         font-size: 2rem;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: 'Bungee', cursive;
         border-radius: 5px;       
 }
 
@@ -195,15 +198,15 @@ p {
 .card-text {
     background-color: rgba(161, 227, 151, 0);
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 .card-title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Bungee', cursive;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,12 +220,12 @@ p {
     justify-content: center;
     align-content: center;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     color:white;
     background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
     border-radius: 1rem;
     padding: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     border: 2px solid black;
 
 }
@@ -259,7 +262,7 @@ u {
 }
 
 label {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     font-size: larger;
     
 }
@@ -305,7 +308,7 @@ form {
     display: none;
     cursor: pointer;
     position: fixed;
-    top: 6rem;
+    top: 5rem;
     right: -1rem;
     width: 700px;
     height:85%;
@@ -377,7 +380,7 @@ footer {
     background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
     box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
     border-width: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
     color: white;
     text-shadow: 7px 3px 7px #000;
     display: flex;
@@ -394,14 +397,14 @@ footer {
 
     }
     .card-text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .btn-primary {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .menu-label img {
@@ -436,11 +439,14 @@ footer {
     .div-general {
         display: flex;
         flex-direction: column;
-        padding-top: 3rem;
+        padding-top: 2rem;
     }
 
     footer {
         flex-direction: column;
+    }
+    header h1 {
+        font-size: 1.5rem;
     }
 
 }
@@ -453,10 +459,10 @@ footer {
     }
 
     .btn-primary {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 .buscar {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     padding: 0;
 }
 p {
@@ -467,19 +473,19 @@ p {
     padding: 4rem;
 }
 header h1 {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .carrito a {
     font-size: 3rem;
 }
 .card-text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .card-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 #carro {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
     cursor:pointer;
 }
@@ -505,7 +511,7 @@ footer {
 
     }
     .btn-primary {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .buscar {
@@ -513,7 +519,7 @@ footer {
         padding: 0;
     }
     header h1 {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 
 }
