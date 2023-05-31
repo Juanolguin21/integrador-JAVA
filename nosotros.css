@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
 /* Variables de colores */
 
 :root {
     --yellow: #a49d80;
     --blue: #e7a670;
     --white: #ffffff;
-    --black:#0a0a0ae7;
-    --grey:#d1cbcbdb;
+    --black:#0a0a0a9a;
+    --grey:#d1cbcba2;
     --gren:rgb(15, 219, 206);
     --bold: 900;
     --medium: 700;
     --regular: 400;
     --small: 300;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bungee', cursive;
 }
 * {
     margin: 0;
@@ -30,7 +30,7 @@ main {
 }
 
 * img {
-    width: 80%;
+    width: 100%;
     height: auto;
     
 }
@@ -38,9 +38,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 5px;
-    box-shadow: 0 0 9px 9px var(--black);
     width: 65%;
 }
 
@@ -57,6 +56,8 @@ body {
     background-image: url(img/ola.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--black);
+
 }
 main {
     display: flex;
@@ -76,17 +77,18 @@ ul {
 }
 
 .navbar a{
-    color:var(--black);
-    font-size: 1.5rem;
+    color:black;
+    font-size: 1rem;
     transition: all 0.4s ease;
-    border-radius: 50%;
+    border-radius: 1rem;
     background-color: white;
     box-shadow: 1px 1px 2px 2px var(--black);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bungee', cursive;
 }
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar a:hover {
@@ -106,7 +108,7 @@ header {
     height: 5rem;
     border-bottom: 0.1rem solid var(--black);
     transition: all 0.6s linear;
-    justify-content: space-between;
+    justify-content: center;
 }
 header:hover{
     border-bottom: 0.1rem solid black;
@@ -134,6 +136,7 @@ header:hover{
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5rem;
+    border-bottom: 2px solid var(--grey);
 }
 .banner h1 {
     color: var(--white);
@@ -141,6 +144,8 @@ header:hover{
     display: flex;
     background-color: var(--black);
     border-top: 2px solid var(--grey);
+    font-size: 1.2rem;
+    width: 100%;
 }
   
 
@@ -153,7 +158,6 @@ header:hover{
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: -1rem; 
 }
 .banner2 h1 {
     color: var(--white);
@@ -161,6 +165,8 @@ header:hover{
     display: flex;
     background-color: var(--black);
     border-top: 2px solid var(--grey);
+    width: 100%;
+
 }
 .historia {
     width: 100%;
@@ -172,12 +178,12 @@ header:hover{
     
 }
 .conteiner{
-    width: 70%;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--grey);
+    background-color: var(--black);
     flex-direction: column;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -236,11 +242,11 @@ footer {
 .legales h3 {
     display: flex;
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 100;
 }
 .legales h2{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     display: flex;
     color:black;
     font-weight: 100;
@@ -270,13 +276,21 @@ footer {
     .historia {
         height: auto;
     }
+
     footer {
     flex-direction: column-reverse;
     gap: 10px;
     justify-content: center;
    }
    .navbar a {
+    font-size: 0.5rem;
+   }
+   .banner h1 {
     font-size: 0.8rem;
+   }
+   .banner2 h1 {
+    font-size: 0.8rem;
+
    }
    .legales {
     align-items: center;
@@ -285,13 +299,14 @@ footer {
     text-align: center;
    }
    .legales h2 {
-    font-size: 0.8rem ;
+    font-size: 0.4rem ;
    }
    .legales h3 {
-    font-size: 0.9rem ;
+    font-size: 0.4rem ;
    }
    .redes {
     justify-content: center;
+    width: 50%;
    }
    .contactanos h1 {
     font-size: 2rem;
@@ -300,7 +315,7 @@ footer {
     font-size: 2rem;
    }
    .conteiner{
-    width: 85%;
+    width: 100%;
     font-size: small;
     padding-top: 3rem;
    }
@@ -309,4 +324,5 @@ footer {
     font-size: 1rem;
 
     }
+
 }
