@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
+html {
+    overflow-x: hidden;
+
+}
 
 body {
     font-size: 62.5%;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
+
 
 }
  
@@ -16,7 +22,7 @@ header .buscar {
 .count-products {
 	position: absolute;
 	top: 50%;
-	right: 18px;
+	right: 10px;
 
 	background-color: #f40303;
 	color: #040404;
@@ -93,7 +99,6 @@ header {
     width: 100%;
     top:0% ;
     box-shadow: 0 0 5px 5px rgba(49, 203, 238, 0.933);
-    padding-right: 1rem;
 
 }
 header a {
@@ -196,9 +201,9 @@ p {
 
 }
 .card-text {
-    background-color: rgba(161, 227, 151, 0);
+    color:#d60404;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 1.5rem bold;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,6 +245,8 @@ p {
 img {
         transition: all 0.3s linear;
         border-radius: 5px;
+
+        
 }
 img:hover {
         transition: all 0.1s linear;
@@ -273,7 +280,7 @@ input {
 
 .row #wrap {
     flex-direction: column;
-    width: 30%;
+    width: 50%;
    
 }
 
@@ -289,10 +296,13 @@ form {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: "tarjetas carrito";
+    overflow-x: hidden;
+
     
 }
 
 .row {
+    overflow-x: hidden;
 
     grid-area: tarjetas;
     display:flex;
@@ -308,7 +318,7 @@ form {
     display: none;
     cursor: pointer;
     position: fixed;
-    top: 5rem;
+    top: 4rem;
     right: -1rem;
     width: 700px;
     height:85%;
@@ -357,13 +367,12 @@ form {
 .contacto {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     align-content: center;
 }
 .contacto a {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     padding: 1rem;
     text-decoration: none;
@@ -388,6 +397,8 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    overflow-x: hidden;
+
 
 }
 @media (max-width: 1300px) {
@@ -497,7 +508,7 @@ header h1 {
 
 
 footer p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 footer {
     padding: 0.5rem;
