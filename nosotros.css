@@ -46,7 +46,6 @@ main {
 .logo {
     display: flex;
     align-items: center;
-    width: 50%;
 }
 
 body {
@@ -284,9 +283,11 @@ footer {
    .navbar a {
     font-size: 0.5rem;
    }
-   .navbar {
-    justify-content: space-between;
+   .logo {
+    width: 70%;
+
    }
+ 
    .banner h1 {
     font-size: 0.8rem;
    }
