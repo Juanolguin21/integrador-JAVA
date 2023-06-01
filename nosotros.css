@@ -46,6 +46,7 @@ main {
 .logo {
     display: flex;
     align-items: center;
+    width: 50%;
 }
 
 body {
@@ -81,7 +82,7 @@ ul {
     font-size: 1rem;
     transition: all 0.4s ease;
     border-radius: 1rem;
-    background-color: white;
+    background-color: rgba(43, 180, 243, 0.627);
     box-shadow: 1px 1px 2px 2px var(--black);
     font-family: 'Bungee', cursive;
 }
@@ -118,9 +119,8 @@ header:hover{
 .item-link{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
-    gap:10px;
     margin-right: 1rem;
     text-decoration: none;
     list-style: none;
@@ -276,7 +276,6 @@ footer {
     .historia {
         height: auto;
     }
-
     footer {
     flex-direction: column-reverse;
     gap: 10px;
@@ -284,6 +283,9 @@ footer {
    }
    .navbar a {
     font-size: 0.5rem;
+   }
+   .navbar {
+    justify-content: space-between;
    }
    .banner h1 {
     font-size: 0.8rem;
@@ -308,9 +310,7 @@ footer {
     justify-content: center;
     width: 50%;
    }
-   .contactanos h1 {
-    font-size: 2rem;
-   }
+  
    .section6 i {
     font-size: 2rem;
    }
