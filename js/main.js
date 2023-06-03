@@ -303,7 +303,7 @@ mensajeFinal = (cliente) => {
   let cliente1 = new Cliente (nombre, direccion, mail)
   
 
-  if (nombre === "" || direccion==="" || mail===""){
+  if (nombre ==="" || direccion==="" || mail===""){
     Swal.fire({
       title: "Por favor, completa los campos.",
       confirmButtonText: 'Continuar'
