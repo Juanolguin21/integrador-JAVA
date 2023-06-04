@@ -586,6 +586,11 @@ footer {
     }
     fieldset label {
         display: none;
+    
+    }
+
+    input {
+        padding-right: 10px;
     }
 
 }
