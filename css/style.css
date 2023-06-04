@@ -182,11 +182,24 @@ img {
 }
 
 
-#submit{
-        background-color: rgb(210, 237, 237);
-        font-size: 2rem;
-        font-family: 'Bungee', cursive;
-        border-radius: 5px;       
+#send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    color:white;
+    background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: 2px solid black;     
+}
+
+#send:hover {
+    transition: all 0.2s ease;
+    box-shadow: 7px 3px 7px #000;    
 }
 
 p {
@@ -237,6 +250,27 @@ p {
     border: 2px solid black;
 
 }
+.btn-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    color:white;
+    background: linear-gradient(rgba(49, 203, 238, 0.933),rgb(54, 175, 250) );
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: 2px solid black;
+}
+
+.btn-success:hover {
+    transition: all 0.2s ease;
+    color: red;
+    box-shadow: 7px 3px 7px #000; 
+}
+
 
 .btn-primary:hover {
     transition: all 0.2s ease;

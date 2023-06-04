@@ -96,7 +96,7 @@ const carroMenu = document.querySelector('.carrito');
     carroToggle.addEventListener('click', () => {
       carroMenu.style.display = carroMenu.style.display === 'block' ? 'none' : 'block';
     });
-    carroMenu.addEventListener('', () => {
+    carroMenu.addEventListener('',  () => {
       carroMenu.style.display = 'none';
     });
 
@@ -281,13 +281,13 @@ function confirmarCompra () {
         <label for="mail">Correo Electrónico:</label>        
         <input type="text" placeholder="mail" id="mail">
             <br>
-            <button id="submit">Enviar</button> <br>
+            <button id="send">Comprar</button> <br>
             <p><b> TOTAL: $ ${total}  💵 💳<b/></p>
             </form>
             `;
   divTotalCarrito.appendChild (div)
 
-  let submit = document.getElementById('submit')
+  let submit = document.getElementById('send')
   submit.addEventListener('click', () => {
     mensajeFinal()
   })
