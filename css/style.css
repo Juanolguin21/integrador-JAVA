@@ -67,6 +67,9 @@ header .buscar {
 .dropdown i {
     font-size: 2rem;
 }
+.menu i {
+    font-size: 2rem;
+}
 
 .dropdown-menu {
     display: none;

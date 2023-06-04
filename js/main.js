@@ -122,7 +122,7 @@ const imprimirProductos = async() => {
     const boton = document.getElementById(`agregar${elem.id}`);
     boton.addEventListener("click", () => {
       buscarProducto(elem.id) & alert(`PRODUCTO AGREGADO CON EXITO   🏄‍♂️ `);
-      var counter = document.querySelector('.count-products span');
+      var counter = document.querySelector('span');
       var span= counter.innerHTML;
       var contenidoIncrementado=parseInt(span)+1;
       counter.innerHTML=contenidoIncrementado;
@@ -296,7 +296,7 @@ function confirmarCompra () {
 
 //ALERTA FINAL DE CIERRE
 
-mensajeFinal = (cliente) => {
+mensajeFinal = () => {
   let nombre = document.getElementById('nombre').value;
   let direccion = document.getElementById('adress').value;
   let mail = document.getElementById('mail').value;
