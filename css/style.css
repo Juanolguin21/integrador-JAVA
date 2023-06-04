@@ -592,5 +592,19 @@ footer {
     input {
     width: 60%;   
     }
-
+    .dropdown i {
+        font-size: 1.2rem;
+        padding-right: 0;
+    }
+    .menu i {
+        font-size: 1.2rem;
+        padding-left: 0;
+    }
+    .count-products  {
+       width: 18px;
+       height: 18px;
+      }
+    .count-products span {
+        font-size: 0.8rem;
+    }
 }
