@@ -304,15 +304,29 @@ u {
     font-style: oblique;
     color: red;
 }
+fieldset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+fieldset label {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 
 label {
     font-family: 'Bungee', cursive;
     font-size: larger;
+    gap: 3px;
+    padding-right: 5px;
+    padding-left: 2px;
     
 }
 
 input {
-    padding: 5px;
+    padding: 3px;
+
 }
 
 .row #wrap {
@@ -569,6 +583,9 @@ footer {
     }
     header h1 {
         font-size: 0.6rem;
+    }
+    fieldset label {
+        display: none;
     }
 
 }
