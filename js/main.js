@@ -285,11 +285,12 @@ function confirmarCompra () {
             <p><b> TOTAL: $ ${total}  💵 💳<b/></p>
             </form>
             `;
-  divTotalCarrito.appendChild (div)
+  divTotalCarrito.appendChild(div);
 
-  let submit = document.getElementById('send')
-  submit.addEventListener('click', () => {
+  let send = document.getElementById('send')
+  send.addEventListener('click', () => {
     mensajeFinal()
+    productosEnStorage()
   })
 
 }
@@ -297,13 +298,15 @@ function confirmarCompra () {
 //ALERTA FINAL DE CIERRE
 
 mensajeFinal = () => {
+
   let nombre = document.getElementById('nombre').value;
   let direccion = document.getElementById('adress').value;
   let mail = document.getElementById('mail').value;
-  let cliente1 = new Cliente (nombre, direccion, mail)
+  let cliente1 = new Cliente (nombre, direccion, mail);
   
+ 
 
-  if (nombre ==="" || direccion==="" || mail===""){
+  if (nombre ==="" || direccion==="" || mail==="" ){
     Swal.fire({
       title: "Por favor, completa los campos.",
       confirmButtonText: 'Continuar'
