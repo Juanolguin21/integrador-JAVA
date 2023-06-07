@@ -74,20 +74,25 @@ header .buscar {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 1px;
+    top: 45px;
     left: -8rem;
     width: 700px;
+    height: auto;
     padding: 1rem;
     background-color: #555;
     color: #fff;
     text-align: center;
     border-color:1rem solid black;
-  }
+    transition: all 0.1s linear;
+
+}
   .dropdown-menu a {
     display: block;
-    margin: 15px 0;
+    margin: 50px 30px;
     color: black;
     align-items: center;
+    justify-content: space-between;
+
 
   }
 
